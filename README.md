@@ -8,6 +8,8 @@ RollingAdpater : 3->1->2->3->1 순으로 스와이프가 가능
 IndicatorView : 현재 위치가 표시되는 인디케이터
 AutoRollingManager : 액티비티의 생명주기에 따라 자동 스와이프 조절
 액티비티에서 아래 코드 추가하여 사용!
+    
+    
     @Override
     protected void onPause() {
         super.onPause();
