@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         List<RollingModel> list = new ArrayList<>();
 
         list.add(new RollingModel("1", R.drawable.android_honeycomb));
-        list.add(new RollingModel("2", R.drawable.android_icecreamsandwich));
+        list.add(new RollingModel("2", R.drawable.android_icecreamsandwich1));
         list.add(new RollingModel("3", R.drawable.android_jellybean));
         list.add(new RollingModel("4", R.drawable.android_kitkat));
         list.add(new RollingModel("5", R.drawable.android_lollipop));
