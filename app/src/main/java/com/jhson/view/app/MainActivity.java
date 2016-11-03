@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         mViewPager.setAdapter(mAdapter);
-        mIndicatorView.setViewPager(mViewPager, true);
+        mIndicatorView.setViewPager(mViewPager);
         mAutoRollingManager = new AutoRollingManager(mViewPager, mAdapter, mIndicatorView);
         mAutoRollingManager.setRollingTime(5500);
     }
